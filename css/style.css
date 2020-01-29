@@ -1,0 +1,221 @@
+html{
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: roboto, arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: .25px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #5f6368; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #5f6368;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.space{
+    width: 100%;
+    height: 15px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+}
+
+#left{
+    position: absolute;
+    display: inline-block;
+    height: 30px;
+    width: 120px;
+    padding-top: 8px;
+    left: 15px;
+}
+
+.right{
+    position: absolute;
+    display: flex;
+    align-content: center;
+    right: 35px;
+}
+
+.right a{
+    padding: 8px 20px 0 0;
+}
+
+#left a{
+    padding: 5px 0 0 20px;
+}
+
+#signin{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background-color: #4285f4;
+    color: white;
+    padding: 0px 12px;
+    border-radius: 2px;
+    line-height: 28px;
+}
+
+a#signin{
+    text-decoration: none;
+    cursor: default;
+}
+
+
+#apps{
+   
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    height: 30px;
+    width: 30px;
+    opacity: .55;
+    display: inline-block;
+    padding-top: 0px;
+}
+
+#logoform{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 140px;
+}
+
+#logo{
+    height: 92px;    
+    background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+    width: 272px;
+    left: calc(50% - 272px/2);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#form{
+    position: relative;
+}
+
+input[type=text]{
+    width: 387px;
+    height: 24px;
+    padding: 10px 0px;
+    display: block;
+    margin: auto;
+    border: transparent;
+    font: 16px roboto, arial, sans-serif;
+    outline: none;
+    font-weight: normal;
+    line-height: 34px;
+    color: rgba(0,0,0,0.87);
+}
+
+.text{
+    width: 484px;
+    height: 44px;
+    position: relative;
+    left: calc(50% - 484px/2);
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 24px;
+}
+
+.buttons{
+    position: absolute;
+    left: calc(50% - 288px/2);
+    margin-top: 30px;
+}
+
+.glass{
+
+    background-size: 509px 66px;
+    background-position: -242px -36px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    opacity: .3;
+    margin-top: 14px;
+    margin-left: 17px;
+}
+
+.mic{
+    
+    background-size: 24px 24px;
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 17px;
+    top: 9px;
+    cursor: pointer;
+}
+
+input[type=submit]{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: roboto, arial, sans-serif;
+    font-size: 14px;
+    min-width: 54px;
+    height: 36px;
+    padding: 0px 16px;
+    margin: 0px 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+    bottom: 0px;
+    border-color: #e4e4e4;
+    border-top: 1px;
+}
+
+.fleft{
+    position: absolute;
+    left: 10px;
+    display: inline-block;
+}
+
+.fright{
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+}
+
+.fleft a{
+    line-height: 40px;
+    margin-left: 25px;
+}
+
+.fright a{
+    line-height: 40px;
+    margin-right: 25px;
+}
